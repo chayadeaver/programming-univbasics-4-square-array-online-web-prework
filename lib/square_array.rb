@@ -1,3 +1,2 @@
-def square_array(array)
- while # your code here
-end
+while square_array(numbers) do
+  
