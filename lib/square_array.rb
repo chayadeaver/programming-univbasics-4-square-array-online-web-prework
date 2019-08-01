@@ -2,9 +2,11 @@ require 'pry'
 # numbers = [1,2,3] 
 def square_array(numbers)
   i = 0 
+  new_numbers =[] 
   while i < numbers.length do 
-    binding.pry
-    numbers[i]
+    new_numbers << numbers[i]**2 
     i += 1 
-  end 
+    
+  end
+  new_numbers
 end
