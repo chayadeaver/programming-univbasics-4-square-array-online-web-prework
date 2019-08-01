@@ -1,6 +1,6 @@
 numbers = [1,2,3]
- 
+ def square_array(numbers)
+   numbers ** 2 
   while square_array(numbers) do 
-  numbers **=2
-end 
-puts square_array(numbers)
+  end 
+end
