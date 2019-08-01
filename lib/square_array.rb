@@ -1,3 +1,4 @@
 def square_array(array)
- numbers = numbers ** 2  # your code here
+ numbers = numbers ** 2 
+ square_array(numbers)# your code here
 end
