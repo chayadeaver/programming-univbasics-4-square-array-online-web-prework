@@ -1,8 +1,7 @@
 numbers = [1,2,3]
- 
+def square_array(new_numbers) 
+  new_numbers = numbers ** 2 
 while square_array(numbers) do 
- 
-new_numbers = [9,10,16,25]
- 
-square_array(new_numbers)
+ puts new_numbers
+end 
 end 
